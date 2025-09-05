@@ -82,6 +82,7 @@ rules:
 - apiGroups:
   - '*'
   resources:
+  - daemonsets
   - deployments
   - replicasets
   - services
@@ -141,6 +142,7 @@ rules:
 - apiGroups:
   - apps
   resources:
+  - daemonsets
   - deployments
   - deployments/finalizers
   - replicasets

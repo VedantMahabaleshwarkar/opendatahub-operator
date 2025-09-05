@@ -127,6 +127,9 @@ package datasciencecluster
 // +kubebuilder:rbac:groups="apps",resources=replicasets,verbs=*
 // +kubebuilder:rbac:groups="*",resources=replicasets,verbs=*
 
+// +kubebuilder:rbac:groups="apps",resources=daemonsets,verbs=*
+// +kubebuilder:rbac:groups="*",resources=daemonsets,verbs=*
+
 // +kubebuilder:rbac:groups="apps",resources=deployments/finalizers,verbs=*
 // +kubebuilder:rbac:groups="core",resources=deployments,verbs=*
 // +kubebuilder:rbac:groups="apps",resources=deployments,verbs=*
